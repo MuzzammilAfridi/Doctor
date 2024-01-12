@@ -1,13 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
+import Nav from './Components/Nav'
 
 function App() {
   const [count, setCount] = useState(0)
+  const navItem = ["Home", "About Us", "Our Service", "Contact Us"]
 
   return (
     <>
-      <h1 className='text-4xl text-red-700 font-semibold text-center py-5'>Hi Everyone</h1>
+     <Nav navItem = {navItem}/>
     </>
   )
 }
