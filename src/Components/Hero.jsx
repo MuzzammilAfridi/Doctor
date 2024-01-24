@@ -2,18 +2,25 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-screen h-[75vh] flex'>
-        <div className='h-full w-1/2 flex flex-col  items-center justify-center gap-9'>
-            <h1 className='text-6xl font-semibold '>Complete health <br /> Care Solution for <br /> Everyone</h1>
-            <p className='w-[90%] '>We're always available for out Patient with emergen Problems. You can easily reach us 24/7.We focused on Highest Quality</p>
-            <button className='p-4 bg-green-600   text-white font-semibold rounded-2xl'>Make a Appointment</button>
+    <div className='h-screen  w-screen flex flex-col md:flex-row'>
+      <div className='min-h-1/2 w-screen md:h-full md:w-1/2'>
+        <div className='w-full p-5 md:p-10'>
+          <h1 className='text-5xl font-semibold md:mt-12'>Complete health <br /> care solution for <br /> Everyone</h1>
+          <p className='mt-5 md:mt-9'>We're always available for our Patients with emergen Problem. You can easily reach us 24/7. We focused on Highest Quality.</p>
+          <button className='mt-3 text-lg font-semibold h-14 px-5  bg-green-600 text-white rounded-xl hover:bg-green-800 md:mt-9'>Make a Appointment</button>
         </div>
-        <div className='h-full w-1/2 flex mt-2 items-center justify-center  '>
-         <img className='h-[90%] absolute z-10' src="/src/assets/doctor.png" />
-         <img className='  h-[60%] absolute mt-14 ml-5 z-[2]' src="/src/assets/greenBox.png" />
-         <img className=' absolute h-[74%] mt-5 ml-5' src="/src/assets/yellowBox.png" />
+      </div>
+      <div className='h-1/2  w-screen md:h-full md:w-1/2'>
+        <div className='h-full w-full flex relative items-center justify-center'>
+        <img className='h-full md:h-full absolute z-30 ' src="./src/assets/doctor.png" alt="img" />
+        <img className='h-1/2 md:h-1/2 absolute z-20 mt-8 ' src="./src/assets/yellowBox.png" alt="img" />
+        <img className='h-2/3 md:h-2/3 absolute mt-8  ' src="./src/assets/greenBox.png" alt="img" />
+        
         </div>
+      </div>
     </div>
+   
+
   )
 }
 
