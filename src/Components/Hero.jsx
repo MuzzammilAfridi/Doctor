@@ -10,9 +10,9 @@ const Hero = () => {
           <button className='mt-3 text-lg font-semibold h-14 px-5  bg-green-600 text-white rounded-xl hover:bg-green-800 md:mt-9'>Make a Appointment</button>
         </div>
       </div>
-      <div className='h-1/2  w-screen md:h-full md:w-1/2'>
+      <div className='h-1/2 mt-[20vh] sm:mt-0  w-screen md:h-full md:w-1/2'>
         <div className='h-full w-full flex relative items-center justify-center'>
-        <img className='h-full md:h-full absolute z-30 ' src="./src/assets/doctor.png" alt="img" />
+        <img className='h-[60vh] md:h-full absolute z-30 ' src="./src/assets/doctor.png" alt="img" />
         <img className='h-1/2 md:h-1/2 absolute z-20 mt-8 ' src="./src/assets/yellowBox.png" alt="img" />
         <img className='h-2/3 md:h-2/3 absolute mt-8  ' src="./src/assets/greenBox.png" alt="img" />
         

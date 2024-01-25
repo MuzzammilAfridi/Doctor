@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='h-screen w-screen flex items-center justify-center bg-cyan-100'>
+    <div className='h-screen w-screen flex items-center justify-center '>
         <div className="min-h-[400px] p-8 rounded-2xl w-[280px] bg-cyan-200">
             <h2 className='text-center mb-5 text-3xl font-semibold'>Contact Form</h2>
             <label className='text-lg' >Name: <input className='my-2 p-2 rounded-lg' type="text" placeholder='Enter your Name' /></label>
