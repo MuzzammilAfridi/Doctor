@@ -5,7 +5,7 @@ import Boxes from './Boxes'
 const About = () => {
   return (
  
-      <div className="min-h-screen bg-cyan-100">
+      <div className="min-h-screen mt-12 sm:mt-0 flex items-center flex-col justify-center bg-cyan-100">
    
     <div className='h-2/3 w-screen flex items-center justify-center '>
 <div className='h-1/2 w-1/2 text-center' >
