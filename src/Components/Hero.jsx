@@ -21,17 +21,17 @@ const Hero = () => {
         <div className="h-full w-full flex relative items-center justify-center">
           <img
             className="h-[60vh] md:h-full absolute z-30 "
-            src="./src/assets/doctor.png"
+            src="./doctor.png"
             alt="img"
           />
           <img
             className="h-1/2 md:h-1/2 absolute z-20 mt-8 "
-            src="./src/assets/yellowBox.png"
+            src="./yellowBox.png"
             alt="img"
           />
           <img
             className="h-2/3 md:h-2/3 absolute mt-8  "
-            src="./src/assets/greenBox.png"
+            src="./greenBox.png"
             alt="img"
           />
         </div>
